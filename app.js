@@ -77,49 +77,49 @@ function King()
     else if(randomMove<.9 && randomMove >.8)
     {
        computerMove=8;
-       alert("YOU WON");
+       alert("YOU WON 10 POINTS");
         points=points+10;
         content.innerHTML =  points;
     }
     else if(randomMove<.8 && randomMove >.7)
         {
            computerMove=7;
-           alert("YOU WON");
+           alert("YOU WON 35 POINTS");
             points=points+35;
             content.innerHTML =  points;
         }
         else if(randomMove<.7 && randomMove >.6)
             {
                computerMove=6;
-               alert("YOU WON");
-                points=points+44;
+               alert("YOU WON 40 POINTS");
+                points=points+40;
                 content.innerHTML =  points;
             }
             else if(randomMove<.6 && randomMove >.5)
                 {
                    computerMove=5;
-                   alert("YOU WON");
-                    points=points+15;
+                   alert("YOU WON 50 POINTS");
+                    points=points+50;
                     content.innerHTML =  points;
                 }
             else if(randomMove<.5 && randomMove >.4)
                 {
                    computerMove=4;
-                   alert("YOU WON");
+                   alert("YOU WON 100 POINTS");
                     points=points+100;
                     content.innerHTML =  points;
                 }
                 else if(randomMove<.4 && randomMove >.3)
                     {
                        computerMove=3;
-                       alert("YOU WON");
+                       alert("YOU WON 100 POINTS");
                         points=points+100;
                         content.innerHTML =  points;
                     }
                 else if(randomMove<.3 && randomMove >.2)
                     {
                        computerMove=2;
-                       alert("YOU WON");
+                       alert("YOU WON 100 POINTS");
                         points=points+100;
                         content.innerHTML =  points;
                     }
